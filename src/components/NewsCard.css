@@ -1,0 +1,29 @@
+.newsMeta{
+    display: flex;
+    gap: 10px;
+    margin-top: 14px;
+
+}
+
+.newsMeta h4{
+    text-transform: capitalize;
+    font-weight: 900;
+    color:#222;
+}
+
+.newsMeta p{
+    color: #555;
+    font-size: 14px;
+    margin-top: 2px;
+} 
+
+.description{
+    color: #777;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.author{
+    color: #444;
+    font-weight: 600;
+}
