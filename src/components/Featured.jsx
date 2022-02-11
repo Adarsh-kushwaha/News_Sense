@@ -6,7 +6,7 @@ import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Featured = () => {
-    const { news } = useNewsApi()
+    const { news } = useNewsApi("bollywood", 3)
     return (
 
         <><Swiper navigation={true} modules={[Navigation]} className="slider">

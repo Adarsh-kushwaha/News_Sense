@@ -3,9 +3,10 @@ import NewsCard from './NewsCard';
 import { useNewsApi } from '../useHooks/useNewsApi';
 
 
+
 const News = () => {
 
-    const {news, error, loading, setTopic} = useNewsApi()
+    const {news} = useNewsApi("politics",6)
 
   return <>
   <div className='newsContainer'>
